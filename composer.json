@@ -1,0 +1,23 @@
+{
+    "name": "sandro/enderecos",
+    "description": "Busca de Endereços online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandro Amâncio de Sá",
+            "email": "sandro.sa@fatec.sp.gov.br"
+        }
+    ],
+    "require": {
+        "php": "7.3.18"
+    },
+    "autoload": {
+        "psr-0":{
+            "Search": "src/"
+        },
+        "psr-4":{
+            "sandro\\enderecos\\":"src/"
+        }
+    }
+}
